@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/musics"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/musics" />
+
+        <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="textCapWords"/>
+
+        <TextView
+            android:id="@+id/enta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUESTIONS"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/black"
+            />
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="15dp"
+                android:text="1). what is the name of the fourth degree of the major scale" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/Tonic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A). Tonic "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton android:id="@+id/Dominant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B). Dominant "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton
+                    android:id="@+id/Subdominant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c). Subdominant "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:id= "@+id/remark1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="14dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="15dp"
+                android:text="2). Which of the following is not a mode of the Major Scale" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/Dorian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A). Dorian "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton
+                    android:id="@+id/Pentatonic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B). Pentatonic "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton
+                    android:id="@+id/Ionian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c). Ionian "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:id= "@+id/remark2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="14dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="15dp"
+                android:text="3).How many notes does the major scale have" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/Three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A). Three "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton android:id="@+id/Five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B). Five "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton android:id="@+id/Seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c). Seven "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:id= "@+id/remark3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="14dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="15dp"
+                android:text="4). Which Scale has five notes " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/Major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A). Major Scale "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton android:id="@+id/Pentatonic2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B). Pentatonic "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                <RadioButton android:id="@+id/Chromatic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c). Chromatic "
+                    android:paddingLeft="1dp"
+                    android:textSize="13sp"
+                    />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:id= "@+id/remark4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textSize="14dp"
+                android:text=""
+                android:textColor="@android:color/holo_red_dark"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/submitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="420sp"
+            android:layout_marginRight="8dp"
+            android:onClick="submitClick"
+            android:text="submit"
+            />
+        <TextView
+            android:id= "@+id/Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="450sp"
+            android:text="RESULT" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
